@@ -19,42 +19,6 @@ import com.example.elastic.model.User;
 @RequestMapping("/user")
 public class UserController {
 
-
-//	@Autowired
-//	private UserDao userDao;
-//
-//	@GetMapping("/all")
-//	public List<User> getAll(){
-//		return userDao.getAllUsers();
-//	}
-//
-//	@GetMapping("/search/{field}")
-//	public List<User> getById(@PathVariable String field) {
-//
-//		return userDao.getUserBySearchCriteria(field);
-//	}
-//
-//	@PostMapping("/new")
-//	public User addNewUser(@RequestBody User user) {
-//		User addNewUser = userDao.addNewUserViaEsTemplate(user);
-//		return addNewUser;
-//	}
-//
-//
-//	@PostMapping("/create")
-//	public String create(@RequestBody User user){
-//		return userDao.createNewUserViaRest(user);
-//	}
-//
-//	@GetMapping("/get/{id}")
-//	public User get(@PathVariable String id) throws IOException {
-//		return userDao.getUserById(id);
-//	}
-//	
-//	@DeleteMapping("/delete/{id}")
-//	public void delete(@PathVariable String id) {
-//		userDao.deleteUser(id);
-//	}
 	@Autowired
 	private UserDao userDao;
 
